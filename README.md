@@ -9,14 +9,6 @@ awesome cli tools （有趣又实用的命令行工具）
 - conard cc
 - ...
 
-## code-complexity
-
-代码复杂度检测
-
-## code-stats
-
-代码统计工具、可视化
-
 ## scan
 
 代码扫描工具，详细文档：[code-scan](./code-scan/README.md)
@@ -24,3 +16,15 @@ awesome cli tools （有趣又实用的命令行工具）
 ```js
 npm i c-scan --save
 ```
+
+## code-complexity
+
+代码复杂度检测，详细文档：[code-complexity](./code-complexity/README.md)
+
+```js
+npm i c-complexity --save
+```
+
+## code-stats
+
+代码统计工具、可视化
