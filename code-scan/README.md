@@ -5,10 +5,10 @@
 使用方法：
 
 ```js
-const scan = require('scan');
+const scan = require('c-scan');
 scan({
     extensions:'**/*.js',
-    path:'src',
+    rootPath:'src',
     defalutIgnore:'true',
     ignoreRules:[],
     ignoreFileName:'.gitignore'
@@ -22,7 +22,7 @@ scan({
 - 扫描文件扩展名
 - 默认值：`**/*.js`
 
-### path
+### rootPath
 
 - 扫描文件路径
 - 默认值：`.`
