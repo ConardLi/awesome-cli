@@ -5,6 +5,10 @@
 使用方法：
 
 ```js
+npm i c-scan --save
+```
+
+```js
 const scan = require('c-scan');
 scan({
     extensions:'**/*.js',
