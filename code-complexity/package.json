@@ -15,7 +15,5 @@
   "dependencies": {
     "c-scan": "^1.0.0",
     "eslint": "^6.4.0",
-    "glob": "^7.1.4",
-    "ignore": "^5.1.4"
   }
 }
