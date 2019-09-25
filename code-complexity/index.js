@@ -69,7 +69,7 @@ function getFunctionName(message) {
  */
 function getFunctionType(message) {
     let hasFuncType = REG_FUNC_TYPE.test(message);
-    return hasFuncType && RegExp.$1;
+    return hasFuncType ? RegExp.$1 : '';
 }
 
 /**
