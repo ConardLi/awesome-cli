@@ -36,7 +36,7 @@ const DEFAULT_PARAM = {
     defalutIgnore: true,
     extensions: EXTENSIONS,
     ignoreFileName: IGNORE_FILE_NAME
-}
+};
 
 
 /**
@@ -106,5 +106,5 @@ module.exports = async function scan(param) {
 
     return filterFilesByIgnore(files, ignorePatterns, ignoreRules);
 
-}
+};
 
