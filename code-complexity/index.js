@@ -100,10 +100,13 @@ function getAdvice(complexity) {
 function executeOnFiles(paths, min) {
     const reports = cli.executeOnFiles(paths).results;
     const result = [];
+    const fileCount = paths.length;
+    let funcCount = 0;
     for (let i = 0; i < reports.length; i++) {
         const { messages, filePath } = reports[i];
         for (let j = 0; j < messages.length; j++) {
             const { message, ruleId, line, column } = messages[j];
+            funcCount++;
             if (ruleId === 'complexity') {
                 const complexity = getComplexity(message);
                 if (complexity >= min) {
@@ -119,7 +122,7 @@ function executeOnFiles(paths, min) {
             }
         }
     }
-    return result;
+    return { fileCount, funcCount, result };
 }
 
 /**
@@ -133,4 +136,4 @@ module.exports = async function (scanParam = {}, min = 1) {
 
     return executeOnFiles(files, min);
 
-}
+};
