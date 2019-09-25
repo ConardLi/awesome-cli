@@ -46,6 +46,5 @@ module.exports = {
     stop: () => {
         spinner.stop();
         console.log();
-    },
-    talbe: console.table
+    }
 };
