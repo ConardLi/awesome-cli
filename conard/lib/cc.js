@@ -20,13 +20,15 @@ module.exports = async function (param) {
         min = 10,
         rootPath = '',
         defalutIgnore = true,
-        ignoreFileName = '.gitignore'
+        ignoreFileName = '.gitignore',
+        ignoreRules = ['node_modules']
     } = param;
 
     const ccResult = await cc({
         rootPath,
         defalutIgnore,
-        ignoreFileName
+        ignoreFileName,
+        ignoreRules
     }, min);
 
     logger.stop();
