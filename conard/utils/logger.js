@@ -1,5 +1,6 @@
-const { Signale } = require('signale');
 const chalk = require('chalk');
+const { table } = require('table');
+const { Signale } = require('signale');
 const { Spinner } = require('cli-spinner');
 
 let spinner = new Spinner('');
@@ -46,5 +47,8 @@ module.exports = {
     stop: () => {
         spinner.stop();
         console.log();
+    },
+    table: (data, config) => {
+        console.log(table(data, config));
     }
 };
