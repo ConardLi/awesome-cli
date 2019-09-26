@@ -17,7 +17,8 @@ const cli = new CLIEngine({
             'error',
             { max: 0 }
         ]
-    }
+    },
+    useEslintrc: false
 });
 
 /**
