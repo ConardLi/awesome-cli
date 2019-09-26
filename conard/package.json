@@ -1,6 +1,6 @@
 {
   "name": "conard",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "./bin/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "conard": "./bin/index.js"
   },
   "dependencies": {
-    "c-complexity": "^1.0.2",
+    "c-complexity": "^1.0.3",
     "chalk": "^2.4.2",
     "cli-spinner": "^0.2.10",
     "signale": "^1.4.0",
