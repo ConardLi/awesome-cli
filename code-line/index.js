@@ -64,6 +64,7 @@ function getCodeLine(files) {
  */
 function formatSys(sys) {
     const array = [];
+    const all = { name: '汇总', files: 0, allLine: 0, codeLine: 0, blankLine: 0 };
     const keys = Object.keys(sys);
     for (let i = 0; i < keys.length; i++) {
         const key = keys[i];
@@ -71,7 +72,12 @@ function formatSys(sys) {
             name: key,
             ...sys[key]
         });
+        all.files += sys[key].files;
+        all.allLine += sys[key].allLine;
+        all.codeLine += sys[key].codeLine;
+        all.blankLine += sys[key].blankLine;
     }
+    array.push(all);
     return array.sort((a, b) => b.allLine - a.allLine);
 }
 
