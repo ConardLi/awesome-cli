@@ -17,13 +17,14 @@ module.exports = async function (param) {
     const start = Date.now();
 
     const {
+        extensions = '**/+(*.js|*.md|*.cpp|*.py|*.ts|*.tsx|*.jsx|*.vue|*.json|*.c|*.h|*.c++|*.java|*.php|*.html|*.ejs|*.css|*.sass|*.less|*.sql|*.dart|*.xml|*.go|*.svg|*.cc|*.CPP|*.cpp|*.cxx|*.h++|*.inl|*.ipp|*.pcc|*.tcc|*.tpp|*.jsp)',
         rootPath = '',
         defalutIgnore = true,
         ignoreFileName = '.gitignore',
         ignoreRules = ['node_modules']
     } = param;
 
-    const result = await cl({ rootPath, defalutIgnore, ignoreFileName, ignoreRules });
+    const result = await cl({ extensions, rootPath, defalutIgnore, ignoreFileName, ignoreRules });
 
     logger.stop();
 
