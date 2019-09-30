@@ -128,7 +128,7 @@ function executeOnFiles(paths, min) {
 
 /**
  * 执行扫描
- * @param {*} path 扫描路径 - 默认为当前路径
+ * @param {*} scanParam 扫描参数，具体参见 c-scan
  * @param {*} min 最小代码复杂度 , 大于此值不会被添加到结果
  */
 module.exports = async function (scanParam = {}, min = 1) {
