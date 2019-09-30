@@ -37,7 +37,7 @@ const hanleResult = target => {
 
 module.exports = async function (param) {
 
-    logger.loading('正在执行检测');
+    logger.loading('正在执行代码复杂度检测...');
 
     const start = Date.now();
 
