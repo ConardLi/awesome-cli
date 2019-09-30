@@ -68,4 +68,6 @@ module.exports = async function (param) {
         logger.info('你的代码非常棒！');
     }
 
+    process.exit(0);
+
 };
