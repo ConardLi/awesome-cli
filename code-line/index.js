@@ -5,8 +5,8 @@ const fs = require('fs');
 const scan = require('c-scan');
 
 const DEFAULT_PARAM = {
-    extensions: '**/+(*.js|*.md|*.cpp|*.py|*.ts|*.tsx|*.jsx|*.vue|*.json|*.c|*.h|*.c++|*.java|*.php|*.html|*.ejs|*.css|*.sass|*.less|*.sql|*.dart|*.xml|*.go|*.svg|*.cc|*.CPP|*.cpp|*.cxx|*.h++|*.inl|*.ipp|*.pcc|*.tcc|*.tpp|*.jsp)'
-    // extensions: '**/+(*.*)'
+    // extensions: '**/+(*.js|*.md|*.cpp|*.py|*.ts|*.tsx|*.jsx|*.vue|*.json|*.c|*.h|*.c++|*.java|*.php|*.html|*.ejs|*.css|*.sass|*.less|*.sql|*.dart|*.xml|*.go|*.svg|*.cc|*.CPP|*.cpp|*.cxx|*.h++|*.inl|*.ipp|*.pcc|*.tcc|*.tpp|*.jsp)'
+    extensions: '**/+(*.*)'
 };
 
 /**
