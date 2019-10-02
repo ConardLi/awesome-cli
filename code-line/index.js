@@ -1,5 +1,5 @@
 /**
- * 代码复杂度检测
+ * 代码行数检测
  */
 const fs = require('fs');
 const scan = require('c-scan');
