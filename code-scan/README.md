@@ -19,7 +19,14 @@ scan({
 });
 ```
 
-`param`列表：
+## 返回值
+
+绝对路径数组。
+
+<img src="../dist/img/scan.jpg" align=center>
+
+
+## 参数列表：
 
 ### extensions
 

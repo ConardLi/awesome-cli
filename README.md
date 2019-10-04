@@ -23,10 +23,9 @@ npm i c-scan --save
 npm i c-complexity --save
 ```
 
-### code-stats
+### code-line
 
-代码统计工具，详细文档：[code-stats](./code-stats/)
-
+代码行数统计工具，详细文档：[code-stats](./code-stats/)
 
 
 ## cli 工具

@@ -11,7 +11,7 @@ const cc = require('c-complexity');
 cc({},10);
 ```
 
-# 参数
+## 参数
 
 ```js
 cc(scanParam,min);
@@ -19,8 +19,9 @@ cc(scanParam,min);
 
 ### scanParam
 
-代码扫描的参数，参考： c-scan 
+代码扫描的参数，参考：[code-scan](../code-scan/)
 
 ### min
 
 最小提醒代码复杂度，默认为1
+
