@@ -8,13 +8,24 @@ awesome cli tools （有趣又实用的命令行工具）
 npm i conard --g
 ```
 
+- `cc` 代码复杂度统计
+
+- `cl` 代码行数统计
+
 切换到项目目录下，执行：
 
 ```js
 conard cc
 ```
 
-![](https://lsqimg-1257917459.cos.ap-beijing.myqcloud.com/20190928223851.png)
+![](./dist/img/cc.png)
+
+
+```js
+conard cl
+```
+
+![](./dist/img/cl.jpg)
 
 
 ## npm包
