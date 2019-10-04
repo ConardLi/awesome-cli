@@ -18,14 +18,15 @@ npm i conard --g
 conard cc
 ```
 
-![](./dist/img/cc.png)
+<img src="./dist/img/cc.png" align=center>
 
 
 ```js
 conard cl
 ```
 
-![](./dist/img/cl.jpg)
+<img src="./dist/img/cl.jpg" width="300"  align=center>
+
 
 
 ## npm包
