@@ -25,7 +25,7 @@ npm i c-complexity --save
 
 ### code-line
 
-代码行数统计工具，详细文档：[code-stats](./code-stats/)
+代码行数统计工具，详细文档：[code-line](./code-line/)
 
 
 ## cli 工具
