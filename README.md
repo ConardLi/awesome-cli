@@ -1,6 +1,17 @@
-# awesome-cli
 
-awesome cli tools （有趣又实用的命令行工具）
+<p align="center">
+  <a href="https://github.com/ConardLi/awesome-cli">
+    <img width="200" src="./dist/img/awesome-cli.png">
+  </a>
+</p>
+
+<h1 align="center">awesome cli</h1>
+
+<div align="center">
+
+有趣又实用的命令行工具。
+
+<div align="left">
 
 
 ## npm包
