@@ -11,6 +11,22 @@
 
 有趣又实用的命令行工具。
 
+
+
+<img src="https://img.shields.io/npm/dw/conard"  align=center>
+
+<img src="https://img.shields.io/github/license/ConardLi/awesome-cli"  align=center>
+
+<img src="https://img.shields.io/github/languages/code-size/ConardLi/awesome-cli"  align=center>
+
+<img src="https://img.shields.io/github/last-commit/ConardLi/awesome-cli"  align=center>
+
+<img src="https://img.shields.io/npm/v/conard"  align=center>
+
+
+
+
+
 <div align="left">
 
 
