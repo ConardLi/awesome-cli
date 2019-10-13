@@ -1,8 +1,12 @@
 #!/usr/bin/env node
 const command = require('./command');
+const update = require('./update');
 
 
-async function main() {
+
+function main() {
+
+  update();
 
   command();
 
