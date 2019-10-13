@@ -7,3 +7,6 @@ async function main() {
   command();
 
 }
+
+
+main();
