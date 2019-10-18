@@ -100,6 +100,8 @@ module.exports = async function scan(param) {
 
     const { rootPath, extensions, defalutIgnore, ignoreRules, ignoreFileName } = param;
 
+    process.chdir(rootPath);
+
     const ignorePatterns = await loadIgnorePatterns(ignoreFileName);
 
     let files = await getGlobScan(rootPath, extensions, defalutIgnore);
