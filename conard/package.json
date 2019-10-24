@@ -20,6 +20,7 @@
     "c-line-sys": "^1.0.5",
     "chalk": "^2.4.2",
     "cli-spinner": "^0.2.10",
+    "figlet": "^1.2.4",
     "signale": "^1.4.0",
     "table": "^5.4.6",
     "update-notifier": "^3.0.1",
