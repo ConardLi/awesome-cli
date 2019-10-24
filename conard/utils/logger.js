@@ -37,7 +37,7 @@ module.exports = {
         signale.error(chalk.red(msg));
     },
     info: function (msg) {
-        signale.info(chalk.blue(msg));
+        signale.info(chalk.green(msg));
     },
     loading: (title = '加载中...') => {
         spinner.setSpinnerTitle(` 💫  ${title}  %s`);

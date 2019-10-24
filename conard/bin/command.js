@@ -3,6 +3,8 @@ const pkg = require('../package.json');
 
 const cc = require('../lib/cc');
 const cl = require('../lib/cl');
+const logo = require('../lib/logo');
+
 
 
 module.exports = function () {
@@ -23,6 +25,11 @@ module.exports = function () {
   yargs.command('version', '', {}, () => {
     console.log(pkg.version);
   });
+
+  /**
+   * logo
+   */
+  yargs.command('$0', '', {}, logo);
 
   yargs.argv;
 
