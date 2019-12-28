@@ -11,6 +11,10 @@ const { CLIEngine } = eslint;
 const cli = new CLIEngine({
     parserOptions: {
         ecmaVersion: 2018,
+        sourceType: 'module',
+        ecmaFeatures: {
+            jsx: true
+        }
     },
     rules: {
         complexity: [
@@ -18,7 +22,7 @@ const cli = new CLIEngine({
             { max: 0 }
         ]
     },
-    useEslintrc: false
+    useEslintrc: true
 });
 
 /**
